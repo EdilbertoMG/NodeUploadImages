@@ -1,0 +1,20 @@
+{
+  "name": "nodeuploadphotos",
+  "version": "1.0.0",
+  "description": "Subir Fotos con Node, Express, Ejs, Multer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Edilberto Marrugo Gutiérrez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
